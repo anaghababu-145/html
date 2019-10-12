@@ -1,0 +1,43 @@
+<!--program starts here-->
+<html>
+ <body>
+   <!--creating a form-->
+  <form action="https://www.google.com/" method="post">
+    <!--creating fieldset-->
+   <fieldset>
+     <!--creating legend-->
+    <legend>Your Details</legend>
+    <!--creating label-->
+    <label for="name">Name</label>
+    <input type="text" name="name" /><br><br>
+    <label for="email">Email</label>
+    <input type="email" name="email" />
+  </fieldset>
+  <br>
+  <!--creating fieldset-->
+  <fieldset>
+    <!--creating legend-->
+   <legend>Your Review:</legend>
+   <!--creating label-->
+    <label for="about us">How did you hear about us?</label>
+     <select name="common">
+      <option value="google">Google</option>
+      <option value="news">News</option>
+     </select>
+     <br><br>
+     <!--creating label-->
+     <label for="visit">Would you visit again?</label><br>
+      <input type="radio" name="again" value="yes">Yes</input>
+      <input type="radio" name="again" value="no">No </input>
+      <input type="radio" name="again" value="maybe">Maybe </input>
+      <br><br>
+      <!--creating label-->
+     <label for="comment">Comments:</label><br>
+     <textarea name="comments" cols="30" rows="4"></textarea><br>
+    <input type="checkbox" name="signup" value="emailupdate">Sign me up for email updates</input><br><br>
+    <input type="submit" value="Submit review" />
+  </form>
+  <!--form close here-->
+</body>
+</html>
+<!--program ends here-->
