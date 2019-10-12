@@ -1,0 +1,73 @@
+<!--program starts here-->
+<html>
+ <head>
+  <title>Registration form</title>
+  <!--setting styles for form elements-->
+  <style >
+    .div
+    {
+  height: 600px;
+  width: 50%;
+  background-color: skyblue;
+}
+.center {
+margin-left:auto;
+margin-right:auto;
+  width: 50%;
+  padding: 20px;
+}
+input[type=submit]
+{
+  background-color:green;
+  border:2px;
+  height:20px;
+}
+.rob
+{
+  margin-top: 32px;
+}
+.rob1
+{
+  margin-left:82px;
+  margin-top: -33px;
+}
+  </style>
+ </head>
+ <body>
+   <!--creating a form-->
+   <form action="register.html"  class="div">
+     <br>
+     <h2 align="middle">Registration Form</h2>
+     <div class="center">
+     <p class="rob">First Name: </p><p class="rob1"><input type="text" name="fn" required="required"></p>
+     <p class="rob">Last Name:</p>
+     <p class="rob1">
+     <input type="text" name="ln" required="required"/></p>
+     <p class="rob">User Name:</p>
+       <p class="rob1">
+     <input type="text" name="un" required="required"/></p>
+     <p class="rob">Password:     </p>
+     <p class="rob1">
+     <input type="password" name="pwd" required="required"/></p>
+     <p class="rob">Email:<p class="rob1">
+     <input type="text" name="em" required="required"/></p>
+     <p class="rob">Mobile No:<p class="rob1">
+     <input type="text" name="no" required="required"/></p>
+     <label for="city">City:</label>
+     <!--creating a dropdown box-->
+     <select  name="city">
+       <option value="select">Select</option>
+       <option value="kollam">Kollam</option>
+       <option value="tvm">Trivandrum</option>
+       <option value="tsr">Thrissur</option>
+     </select>
+     <br><br>
+     <!--creating a button-->
+    <input type="submit" name="reg" value="Register" >
+    <br><br>
+     <a href="loginform.html">Back to Home</a>
+     </div>
+     </form>
+     </body>
+     </html>
+     <!--program ends here-->

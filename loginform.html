@@ -1,0 +1,52 @@
+<!--program starts here-->
+<html>
+<head>
+  <!--setting styles for form elements-->
+  <style>
+  .div
+  {
+height: 300px;
+width: 35%;
+background-color: lightgreen;
+}
+.center {
+margin-left:auto;
+margin-right:auto;
+  width: 50%;
+  padding: 20px;
+}
+input[type=submit]
+{
+  background-color:yellow;
+  border:2px;
+  height:20px;
+  align:center;
+}
+.label {
+    width:180px;
+    clear:left;
+    text-align:left;
+    padding-right:20px;
+}
+</style>
+</head>
+<body>
+  <!--creating a form-->
+<form action="login.html" class="div" >
+  <h2 align="center"><br>Login Form</h2>
+  <div class="center">
+  <p>
+    <div class="label">
+  <label for="uname">User Name:</label>
+  <input type="text" name="un" placeholder="Enter user name" required="required">
+  <br><br>
+  <label for="pwd" name="pd">Password:
+    <input type="password" name="psd" placeholder="Enter user password" required="required">
+  </p>
+  <!--creating a button-->
+    <input type="submit" value="Login" align="center"/>
+    <a href="registrationform.html">New Member</a>
+</div>
+</body>
+</html>
+<!--program ends here-->
