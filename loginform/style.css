@@ -1,0 +1,108 @@
+/*external css file*/
+/*properies for body tag*/
+body
+{
+  background-image: url("flower.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Ubuntu',sans-serif;
+}
+/*properies for form*/
+.front
+{
+  background-color: gainsboro;
+  width:20%;
+  height: 50%;
+  margin:10% auto;
+  border-radius: 20%;
+  box-shadow: 0px 11px 35px 2px rgba(0,0,0,0.14);
+}
+/*properies for signin*/
+.Sign
+{
+  padding-top: 10%;
+  color: #FF0000;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+/*properies for username field*/
+.user
+{
+  width:70%;
+  height: 10%;
+  background-color: #D3D3D3;
+  color: rgb(0,0,0);
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0,0,0,0.02);
+  margin-bottom: 50px;
+  margin-left: 45px;
+  margin-right: center;
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: 'Ubuntu',sans-serif;
+}
+/*properies for password field*/
+.pass
+{
+  width:70%;
+  height: 10%;
+  background-color: #D3D3D3;
+  color: rgb(0,0,0);
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0,0,0,0.02);
+  margin-bottom: 50px;
+  margin-left: 45px;
+  margin-right: center;
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: 'Ubuntu',sans-serif;
+}
+/*properies for submit button*/
+.submit
+{
+  cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to right,#FF4500,#FF6347);
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Ubuntu',sans-serif;
+  margin-left: 30%;
+  font-size: 15px;
+}
+/*setting highlights to button*/
+.submit:hover
+{
+  background-image: none !important;
+  background-color: red;
+}
+/*properies for forgot password*/
+.forgot{
+  cursor: pointer;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Ubuntu',sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 800;
+}
